@@ -1,57 +1,51 @@
-# Time Series Forecasting in Python
+# 처음 해보는 Python 시계열 예측
 ![Cover of the book Time Series Forecasting in Python](https://freecontent.manning.com/wp-content/uploads/DOTD_NewMEAP_Peixeiro.png)
 
-**This book is still in progress and the code might change before the full release in Spring 2022**
+**이 책은 아직 준비 중으로, 2023년 혹은 2024년 초 중으로 출간 때까지 코드가 변경될 수 있습니다**
 
-## Get a copy of the book
-If you do not have the book yet, make sure to grab a copy [here](https://www.manning.com/books/time-series-forecasting-in-python-book?utm_source=marcopeix&utm_medium=affiliate&utm_campaign=book_peixeiro_time_10_21_21&a_aid=marcopeix&a_bid=8db7704f)
+## 책 구하기
+아직 책이 없으시다면, 다음 링크에서 구할 수 있습니다. [여기(준비 중)](https://jpub.tistory.com/)
 
-In this book, you learn how to build predictive models for time series. Both the statistical and deep learnings techniques are covered, and the book is 100% in Python!
+이 책으로 시계열에 대한 예측 모델을 구축하는 방법을 배울 수 있습니다. 통계적 모델과 딥러닝 모델을 모두 다루고, 모든 코드를 Python으로 작성하였습니다.
 
-Specifically, you will learn how to:
-- Recognize a time series forecasting problem and build a performant predictive model
-- Create univariate forecasting models that accound for seasonality and external variables
-- Build multivariate forecasting models to predict many time series at once
-- Leverage large datasets using deep learning models for forecasting (implementation in TensorFlow/Keras)
-- Automate the forecasting process
+구체적으로, 다음과 같은 내용을 배울 수 있습니다.
+- 시계열 예측 문제를 파악하고, 성능이 우수한 예측 모델 구축하기
+- 계절성 및 외부 변수를 고려하는 단변량 예측 모델 만들기
+- 한 번에 여러가지 시계열을 예측하는 다변량 예측 모델 만들기
+- 딥러닝 모델을 사용하여 대규모 데이터 집합을 예측해보기 (TensorFlow/Keras로 구현하였습니다)
+- 예측 프로세스 자동화하기 (Prophet을 사용하였습니다)
 
-Plus, the book comes with a ton of hands-on projects with real-life data, such as the earnings per share of Johnson & Johnson, the daily stock price of Google, the US macroeconomic data, the volume of antidiabetic drug prescription in Australia, and much more.
+또한, 위와 같은 내용을 실습해볼 수 있도록 이 책에 Johnson & Johnson의 주당 순이익, Google의 일일 주가, 미국 거시 경제 지표, 호주의 항당뇨제 처방 건수 등과 같은 실제 데이터를 사용하는 다양한 실습 프로젝트를 포함하였습니다.
 
-Get your [copy](https://www.manning.com/books/time-series-forecasting-in-python-book?utm_source=marcopeix&utm_medium=affiliate&utm_campaign=book_peixeiro_time_10_21_21&a_aid=marcopeix&a_bid=8db7704f)
- now!
+곧 다음 링크에서 책을 구매하실 수 있습니다. 잠시만 기다려주세요.
+- [제이펍(한글 번역서(준비 중))](https://jpub.tistory.com/)
+- [Manning(원서)](https://www.manning.com/books/time-series-forecasting-in-python-book?utm_source=marcopeix&utm_medium=affiliate&utm_campaign=book_peixeiro_time_10_21_21&a_aid=marcopeix&a_bid=8db7704f)
 
- ## How to use this repo
- I highly recommend that you read the book and code along. This is the best way to take the most out of the book.
+## 저장소 활용하는 방법
+책과 함께 코드를 읽어볼 때 가장 많은 지식을 얻을 수 있어 두 가지를 함께 보시길 적극 권장드립니다.
 
- Each folder corresponds to a chapter. They each contain the notebook with all the code presented in that chapter. The code is in order of appearance in the book. When appropriate, there is also a data folder cointaining the CSV file used in that chapter.
+각 폴더는 하나의 장에 해당합니다. 각 폴더에닌 해당 장에서 제시한 모든 코드를 담고 있는 노트북이 들어 있습니다. 코드는 책에 나온 순서대로 나열되어 있습니다.
+각 장에서 사용한 csv 파일 등을 포함하는 데이터는 라이센스에 위배되지 않는 경우 data 폴더에 들어 있습니다. 라이센스 준수 위해 노트북에 데이터를 다운로드할 수 있는 링크를 텍스트로 포함한 경우, data 폴더에 해당 데이터 파일을 다운로드 받으면 코드에서 사용 가능합니다.
 
- ## State of progress
- Keep in mind that changes might be done anytime before the final release.
-
- ### Chapters in early access
- The following chapters are accessible but might still be modified before the final release. That's why your feedback is important, so we can improve the book together.
-
- - Ch 1: Understanding time series forecasting
- - Ch 2: A naïve prediction of the future
- - Ch 3: Going on a random walk
- - Ch 4: Modeling a moving average process
- - Ch 5: Modeling an autoregressive process
- - Ch 6: Modeling complex time series
- - Ch 7: Forecasting non-stationary time series
- - Ch 8: Accounting for seasonality
- - Ch 9: Adding external variables to our model
- - Ch 10: Forecasting multiple time series
- - Ch 11: Captonse project - Forecasting the number of anti-diabetic drug prescriptions in Australia
- - Ch 12: Introducing deep learning for time series forecasting
- - Ch 13: Data windowing and creating baselines for deep learning
- - Ch 14: Baby steps with deep learning
- - Ch 15: Remembering the past with LSTM
- - Ch 16: Filtering our time series with CNN
- - Ch 17: Using predictions to make more predictions
- - Ch 18: Capstone project - Forecasting the electric power consumption of a household 
-
- ### Next chapters to come in early access
- - Ch 19: Automating time series forecasting with Prophet
- - Ch 20: Capstone project - Forecasting the monthly average retail price of steak in Canada
-
- ### Chapters in development
+## 책의 구성
+- 1장: 시계열 예측의 이해
+- 2장: 단순하게 미래 예측하기
+- 3장: 확률보행 따라 가보기
+- 4장: 이동평균 프로세스 모델링하기
+- 5장: 자기회귀 프로세스 모델링하기
+- 6장: 복잡한 시계열 모델링하기
+- 7장: 비정상적 시계열 예측하기
+- 8장: 계절성 고려하기
+- 9장: 모델에 외생 변수 추가하기
+- 10장: 다중 시계열 예측하기
+- 11장: 캡스톤 프로젝트 - 호주 항당뇨제 처방 건수 예측하기
+- 12장: 시계열 예측을 위한 딥러닝 소개하기
+- 13장: 딥러닝을 위해 데이터 윈도잉하고 베이스라인 모델 만들기
+- 14장: 딥러닝 첫 걸
+- 15장: LSTM으로 과거를 기억하기
+- 16장: CNN으로 시계열 필터링하기
+- 17장: 예측으로 더 많은 예측하기
+- 18장: 캡스톤 프로젝트 - 가정의 전력 소비량 예측하기 
+- 19장: Prophet으로 시계열 예측 자동화하기
+- 20장: 캡스톤 프로젝트 - 캐나다의 스테이크 월평균 소매 가격 예측하기
+- 21장: 지금 이상으로 나아가기
